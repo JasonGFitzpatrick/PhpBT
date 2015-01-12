@@ -1,0 +1,22 @@
+{
+    "name": "JasonGFitzpatrick/PhpBT",
+    "description": "A behavior tree implementation using PHP",
+    "type" : "library",
+    "keywords" : ["behavior tree", "bt"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Fitzpatrick",
+            "email": "jason.g.fitzpatrick@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4" : {"PhpBT\\" : "src"}
+    }
+}
