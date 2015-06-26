@@ -3,7 +3,8 @@ A behavior tree implementation in PHP
 
 #Example Usage
 
-```$tr = new TreeRoot();
+```
+$tr = new TreeRoot();
 
 function randar($max)
 {
@@ -32,4 +33,5 @@ $tr->AddHook('Random', $p);
 $tr->RebuildTree();
 $tr->Start();
 
-sleep(15);```
+sleep(15);
+```
