@@ -6,7 +6,7 @@ A behavior tree implementation in PHP
 ```
 $tr = new TreeRoot();
 
-function randar($max)
+function random($max)
 {
 	return new Action(function ($max) use ($max) {
 		$r = rand(0, 100);
@@ -23,10 +23,10 @@ function randar($max)
 
 
 $p = new PrioritySelector(
-	randar(10),
-	randar(20),
-	randar(60),
-	randar(70)
+	random(10),
+	random(20),
+	random(60),
+	random(70)
 );
 
 $tr->AddHook('Random', $p);
